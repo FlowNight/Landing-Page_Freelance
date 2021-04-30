@@ -4,12 +4,15 @@
 
 Step 1 -->
   [EN] - Find the type of freelance for the practical work (craftsman skill).
+  
   [FR] - Trouver le type de freelance pour le TP (compétence de l'artisan).
  
 Step 2 -->
   [EN] - Zoning the landing page.
+  
   [FR] - Realiser un zoning de la landing page.
   
 Step 3 -->
   [EN] - Realization of the web page in mobile-first responsive.
+  
   [FR] - Réalisation de la page Web en responsive mobile-first.

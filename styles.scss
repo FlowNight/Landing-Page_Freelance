@@ -1,0 +1,60 @@
+html body {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    .img {}
+    .home {}
+    .gallery {}
+    .about {}
+    .contact {}
+}
+
+.section-one {
+    .img {}
+    .s1-title {}
+    .s1-p {}
+}
+.section-two {
+    .img {}
+    .s2-bloc-1 {
+        .s2-title {}
+        .s2-p1 {}
+    }
+    .s2-bloc-2 {
+        .s2-title{}
+        .s2-p2 {}
+    }
+}
+.section-three {
+    .s3-bloc-1 {
+        .img {}
+        .s3-title {}
+        .s3-p1 {}
+    }
+    .s3-bloc-2 {
+        .img {}
+        .s3-title {}
+        .s3-p2 {}
+    }
+    .s3-bloc-3 {
+        .img {}
+        .s3-title {}
+        .s3-p3 {}
+    }
+}
+
+footer {
+    .img {}
+    .copyright {}
+    .info {
+        .name {}
+        .phone {}
+        .e-mail {}
+    }
+}

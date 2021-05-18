@@ -7,7 +7,7 @@
 
 html body {
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
 }
 
 html {
@@ -16,10 +16,17 @@ html {
 
 header {
     background-color: var(--primary);
-    width: 100%;
-    height: 108px;
+    display: flex;
 
-    #img {}
+    img {
+        padding: 1%;
+        max-width: 5%;
+        min-width: 5%;
+    }
+
+    #button-bloc {
+        flex-direction: flex-end;
+    }
 
     #home {}
 
@@ -31,21 +38,21 @@ header {
 }
 
 #section-one {
-    background-color: var();
     width: 100%;
-    height: 450px;
     display: flex;
 
-    #img {
-        padding: 10px;
-        width: 50px;
-        height: 50px;
-        border-radius: 10px 10px 10px 10px;
+    img {
+        padding: 20 auto;
+        margin: 20px auto;
+        max-width: 30%;
+        min-width: 30%;
+        height: 70%;
+        border-radius: 10%;
     }
 
-    #s1-title {
-        text-align: center;
-    }
+    #s1-bloc-p {}
+
+    #s1-title {}
 
     #s1-p {}
 }
@@ -99,8 +106,7 @@ header {
 
 #section-three {
     background-color: #e67e22;
-    width: 100%;
-    height: 450px;
+    padding: 5%;
     display: flex;
 
     #s3-bloc-1 {
@@ -159,3 +165,20 @@ footer {
         #e-mail {}
     }
 }
+
+// <--===== Tablette =====-->
+@media screen and (max-width: 960px) {
+    #section-one {
+        flex-flow: wrap;
+    }
+    #section-two {
+        flex-flow: wrap;
+    }
+    #section-three {
+        flex-flow: wrap;
+        margin: 10px;
+    }
+}
+
+// <--===== Mobile =====-->
+@media screen and (max-width: 375px) {}

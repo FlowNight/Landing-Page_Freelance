@@ -173,10 +173,40 @@ footer {
     }
     #section-two {
         flex-flow: wrap;
+        #s3-bloc-1 {
+            background-color: #bdc3c7;
+            padding: 5px;
+            margin-right: 70px;
+            border-radius: 20px 20px 20px 20px;
+    
+            #img {}
+    
+            #s3-title {}
+    
+            #s3-p1 {}
+        }
+    
+        #s3-bloc-2 {
+            background-color: #bdc3c7;
+            padding: 5px;
+            margin-right: 70px;
+            border-radius: 20px 20px 20px 20px;
+    
+        }
+    
+        #s3-bloc-3 {
+            background-color: #bdc3c7;
+            padding: 5px;
+            margin-right: 70px;
+            border-radius: 20px 20px 20px 20px;
+    
+            
+        }
+    }
     }
     #section-three {
         flex-flow: wrap;
-        margin: 10px;
+        
     }
 }
 

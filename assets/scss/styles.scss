@@ -167,48 +167,28 @@ footer {
 }
 
 // <--===== Tablette =====-->
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 960px) {}
+
+// <--===== Mobile =====-->
+@media screen and (max-width: 375px) {
     #section-one {
         flex-flow: wrap;
     }
+
     #section-two {
         flex-flow: wrap;
+
         #s3-bloc-1 {
-            background-color: #bdc3c7;
-            padding: 5px;
-            margin-right: 70px;
-            border-radius: 20px 20px 20px 20px;
-    
-            #img {}
-    
-            #s3-title {}
-    
-            #s3-p1 {}
         }
-    
+
         #s3-bloc-2 {
-            background-color: #bdc3c7;
-            padding: 5px;
-            margin-right: 70px;
-            border-radius: 20px 20px 20px 20px;
-    
         }
-    
+
         #s3-bloc-3 {
-            background-color: #bdc3c7;
-            padding: 5px;
-            margin-right: 70px;
-            border-radius: 20px 20px 20px 20px;
-    
-            
         }
-    }
-    }
-    #section-three {
-        flex-flow: wrap;
-        
     }
 }
 
-// <--===== Mobile =====-->
-@media screen and (max-width: 375px) {}
+#section-three {
+    flex-flow: wrap;
+}

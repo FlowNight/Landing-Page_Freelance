@@ -132,7 +132,7 @@ footer {
   display: flex;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 375px) {
   #section-one {
     -ms-flex-flow: wrap;
         flex-flow: wrap;
@@ -141,10 +141,10 @@ footer {
     -ms-flex-flow: wrap;
         flex-flow: wrap;
   }
-  #section-three {
-    -ms-flex-flow: wrap;
-        flex-flow: wrap;
-    margin: 10px;
-  }
+}
+
+#section-three {
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
 }
 /*# sourceMappingURL=styles.css.map */

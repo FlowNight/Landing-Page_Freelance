@@ -32,12 +32,27 @@ header img {
 }
 
 #section-one img {
-  padding: 20 auto;
-  margin: 20px auto;
-  max-width: 30%;
-  min-width: 30%;
-  height: 70%;
-  border-radius: 10%;
+  padding: 1em;
+  margin: 1.5em;
+  max-width: 25%;
+  min-width: 25%;
+  border-radius: 2em;
+}
+
+#section-one #s1-bloc-p {
+  background-color: #bdc3c7;
+  padding: 1em;
+  margin: 2.5em;
+  border-radius: 15px 15px 15px 15px;
+}
+
+#section-one #s1-title {
+  text-align: center;
+  margin: 1em;
+}
+
+#section-one #s1-p {
+  margin: 2.5em;
 }
 
 #section-two {
@@ -142,6 +157,9 @@ footer {
   #section-one {
     -ms-flex-flow: wrap;
         flex-flow: wrap;
+  }
+  #section-one img {
+    text-align: center;
   }
   #section-two {
     -ms-flex-flow: wrap;

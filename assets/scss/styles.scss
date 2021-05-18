@@ -24,8 +24,7 @@ header {
         min-width: 3%;
     }
 
-    #button-bloc {
-    }
+    #button-bloc {}
 
     #home {}
 
@@ -40,19 +39,28 @@ header {
     display: flex;
 
     img {
-        padding: 20 auto;
-        margin: 20px auto;
-        max-width: 30%;
-        min-width: 30%;
-        height: 70%;
-        border-radius: 10%;
+        padding: 1em;
+        margin: 1.5em;
+        max-width: 25%;
+        min-width: 25%;
+        border-radius: 2em;
     }
 
-    #s1-bloc-p {}
+    #s1-bloc-p {
+        background-color: #bdc3c7;
+        padding: 1em;
+        margin: 2.5em;
+        border-radius: 15px 15px 15px 15px;
+    }
 
-    #s1-title {}
+    #s1-title {
+        text-align: center;
+        margin: 1em;
+    }
 
-    #s1-p {}
+    #s1-p {
+        margin: 2.5em;
+    }
 }
 
 #section-two {
@@ -95,7 +103,7 @@ header {
     background-color: #e67e22;
     padding: 5%;
     display: flex;
-    
+
 
     #s3-bloc-1 {
         background-color: #bdc3c7;
@@ -144,7 +152,8 @@ header {
         }
 
         #s3-p3 {
-            margin: 2.5em;;
+            margin: 2.5em;
+            ;
         }
     }
 }
@@ -171,6 +180,10 @@ footer {
 @media screen and (max-width: 960px) {
     #section-one {
         flex-flow: wrap;
+
+        img {
+            text-align: center;
+        }
     }
 
     #section-two {

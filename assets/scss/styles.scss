@@ -16,30 +16,31 @@ header {
     background-color: var(--primary);
     display: flex;
     justify-content: space-between;
-<<<<<<< HEAD
     align-items: center;
-    padding-right: 45px;
-=======
->>>>>>> b512365f6fb2120a0e6156e7b359a6d43180a84e
 
     img {
-        padding: 1em;
-        max-width: 5%;
-        min-width: 5%;
+        padding: 0.5em;
+        max-width: 4%;
+        min-width: 4%;
     }
 
-    #button-bloc {
-        padding: 1em;
-        justify-content: space-between;
+    #button-bloc {}
+
+    #home {
+        margin-right: 5em;
     }
 
-    #home {}
+    #gallery {
+        margin-right: 5em;
+    }
 
-    #gallery {}
+    #about {
+        margin-right: 5em;
+    }
 
-    #about {}
-
-    #contact {}
+    #contact {
+        margin-right: 5em;
+    }
 }
 
 #section-one {
@@ -111,14 +112,19 @@ header {
 #section-three {
     padding: 5%;
     display: flex;
+    flex-flow: row nowrap;
     justify-content: space-around;
+
+    img {
+        padding: 1em;
+        max-width: 100px;
+        max-height: 150px;
+    }
 
     #s3-bloc-1 {
         background-color: var(--gray);
         padding: 1em;
         border-radius: 20px 20px 20px 20px;
-
-        #img {}
 
         #s3-title {
             text-align: center;
@@ -135,8 +141,6 @@ header {
         padding: 1em;
         border-radius: 20px 20px 20px 20px;
 
-        #img {}
-
         #s3-title {
             text-align: center;
             margin: 1em;
@@ -152,8 +156,6 @@ header {
         padding: 1em;
         border-radius: 20px 20px 20px 20px;
 
-        #img {}
-
         #s3-title {
             text-align: center;
             margin: 1em;
@@ -166,20 +168,26 @@ header {
 }
 
 footer {
-    background-color: var(--primary);
     display: flex;
+    background-color: var(--primary);
+    color: white;
+    justify-content: space-around;
 
-    #img {}
+    #icon-logo {
+        padding: 1em;
+        margin: 1.5em;
+        align-self: flex-end;
 
-    #copyright {}
-
-    #info {
-        #name {}
-
-        #phone {}
-
-        #e-mail {}
+        a {
+            margin-right: 2em;
+        }
     }
+
+    #copyright {
+        align-self: flex-end;
+    }
+
+    #info {}
 }
 
 // <--===== Tablette =====-->
@@ -191,7 +199,7 @@ footer {
         margin: 1em;
 
         img {
-            // text-align: center;
+            align-self: center;
         }
 
         #s1-bloc-p {
@@ -219,7 +227,7 @@ footer {
     }
 
     #section-three {
-        flex-direction: column; 
+        flex-direction: column;
 
         #s3-bloc-1 {
             margin: 2em;
@@ -233,71 +241,22 @@ footer {
             margin: 2em;
         }
 
-        #img {
-            // text-align: center;
+        img {
+            align-self: center;
         }
     }
-
-<<<<<<< HEAD
-   
-=======
-    footer {
-        // flex-direction: column wrap;
-        justify-content: space-between;
-    }
->>>>>>> b512365f6fb2120a0e6156e7b359a6d43180a84e
 }
 
+footer {
 
- #section_footer {
-             justify-content: space-around;
-            //position: absolute;
-            bottom: 0px;
-            height: 240px;
-            background-color:var(--primary);
-            color: white;
-            width: 100vw;
-        }
+    #icon-logo {
+        margin: 0;
+    }
 
-        .InnerSection {
-            float: left;
-            margin: 0 28px;
-            width: 20%;
-        }
+    #copyright {}
 
-        .InnerHeading {
-            font-weight: 500;
-            color: gray;
-        }
-
-        ol {
-            list-style: none;
-        }
-
-        li {
-            margin: 10px 0;
-        }
-
-        a {
-            color: white;
-            text-decoration: none;
-        }
-
-        a:hover {
-            color: blue;
-        }
-
-        .SocialIcon {
-            height: 28px;
-            border-radius: 7px;
-        }
-
-        #IconList {
-            display: flex;
-        }
-        #IconList li {
-            margin: 0 10px;
-        }
+    #info {}
+}
 
 // <--===== Mobile =====-->
 // @media all and (max-width: 375px) {}

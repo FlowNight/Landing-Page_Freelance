@@ -1,0 +1,53 @@
+@import'colors';
+@import 'media-queries';
+
+
+%align-center{
+    display: flex;
+    align-items: center;
+}
+
+header {
+
+   // background-color: var(--primary);
+   background: var(--gray);
+   // margin: 0 auto;
+    height: 80px;
+    justify-content: space-between;
+    //border: 1px solid red;
+    padding: 0.5rem calc((100vm - 1200px) /2);
+    z-index: 10;
+    position: relative;
+    @extend %align-center;
+    
+    .logo{
+        cursor: pointer;
+        font-size: 2rem;
+        margin-left: 24px;
+        display: flex;
+        text-decoration: none;
+       
+    }
+    .bars{
+        opacity: 0;
+        
+        @include tablet {
+            color: $dark;
+            opacity: 1;
+            position: absolute;
+            top: 22px;
+            right: 20px;
+            font-size: 2rem;
+
+        }
+
+    }
+
+   // .home {}
+
+   // .gallery {}
+
+  //  .about {}
+
+  //  .contact {}
+}

@@ -6,8 +6,11 @@
 }
 
 html body {
-    padding: 0;
+    // font-size: 16px;
     margin: 0 auto;
+    padding: 0;
+    font-family: Helvetica, sans-serif !important;
+    width: 100%;
 }
 
 html {
@@ -51,15 +54,16 @@ header {
         padding: 1em;
         margin: 2.5em;
         border-radius: 15px 15px 15px 15px;
-    }
 
-    #s1-title {
-        text-align: center;
-        margin: 1em;
-    }
+        #s1-title {
+            display: block;
+            text-align: center;
+            margin: 1em;
+        }
 
-    #s1-p {
-        margin: 2.5em;
+        #s1-p {
+            margin: 2.5em;
+        }
     }
 }
 
@@ -177,17 +181,25 @@ footer {
 
 // <--===== Tablette =====-->
 
+/* max-width, si l'écran est inférieur ou égal alors {...} */
 @media screen and (max-width: 960px) {
     #section-one {
-        flex-flow: wrap;
+        flex-direction: column;
 
-        img {
-            text-align: center;
+        img {}
+
+        #s1-bloc-p {
+            padding: 0;
+            margin: 1em;
+
+            #s1-title {}
+
+            #s1-p {}
         }
     }
 
     #section-two {
-        flex-flow: wrap;
+        flex-direction: column;
 
         #s2-bloc-1 {}
 
@@ -195,7 +207,7 @@ footer {
     }
 
     #section-three {
-        flex-flow: wrap;
+        flex-direction: column;
 
         #s3-bloc-1 {}
 
@@ -203,6 +215,11 @@ footer {
 
         #s3-bloc-3 {}
     }
+
+    footer {
+        flex-direction: column;
+    }
+
 }
 
 // <--===== Mobile =====-->

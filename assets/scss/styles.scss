@@ -1,13 +1,15 @@
 @import'colors';
 
 html body {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     font-family: Helvetica, sans-serif !important;
+    font-size: 20px;
 }
 
 html {
     scroll-behavior: smooth;
+    display: flex;
 }
 
 header {
@@ -43,7 +45,7 @@ header {
     }
 
     #s1-bloc-p {
-        background-color: #bdc3c7;
+        background-color: var(--gray);
         padding: 1em;
         margin: 2.5em;
         border-radius: 15px 15px 15px 15px;
@@ -65,7 +67,7 @@ header {
     display: flex;
 
     #s2-bloc-1 {
-        background-color: #bdc3c7;
+        background-color: var(--gray);
         margin: 1em;
         border-radius: 15px 15px 15px 15px;
 
@@ -80,7 +82,7 @@ header {
     }
 
     #s2-bloc-2 {
-        background-color: #bdc3c7;
+        background-color: var(--gray);
         margin: 1em;
         border-radius: 15px 15px 15px 15px;
 
@@ -96,13 +98,12 @@ header {
 }
 
 #section-three {
-    background-color: #e67e22;
     padding: 5%;
     display: flex;
 
 
     #s3-bloc-1 {
-        background-color: #bdc3c7;
+        background-color: var(--gray);
         padding: 1em;
         border-radius: 20px 20px 20px 20px;
 
@@ -119,7 +120,7 @@ header {
     }
 
     #s3-bloc-2 {
-        background-color: #bdc3c7;
+        background-color: var(--gray);
         padding: 1em;
         border-radius: 20px 20px 20px 20px;
 
@@ -136,7 +137,7 @@ header {
     }
 
     #s3-bloc-3 {
-        background-color: #bdc3c7;
+        background-color: var(--gray);
         padding: 1em;
         border-radius: 20px 20px 20px 20px;
 
@@ -174,7 +175,7 @@ footer {
 // <--===== Tablette =====-->
 
 /* max-width, si l'écran est inférieur ou égal alors {...} */
-@media screen and (max-width: 960px) {
+@media all and (max-width: 960px) {
     #section-one {
         flex-direction: column;
 
@@ -214,4 +215,4 @@ footer {
 }
 
 // <--===== Mobile =====-->
-// @media screen and (max-width: 375px) {}
+// @media all and (max-width: 375px) {}

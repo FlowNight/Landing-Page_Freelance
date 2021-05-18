@@ -50,7 +50,7 @@ header #button-bloc {
 
 #section-two {
   background-color: var(--secondary);
-  padding: 30px;
+  padding: 5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -58,10 +58,7 @@ header #button-bloc {
 
 #section-two #s2-bloc-1 {
   background-color: #bdc3c7;
-  padding: 5px;
-  margin-right: 70px;
-  width: 350px;
-  height: 250px;
+  padding: 1%;
   border-radius: 20px 20px 20px 20px;
 }
 
@@ -78,10 +75,7 @@ header #button-bloc {
 
 #section-two #s2-bloc-2 {
   background-color: #bdc3c7;
-  padding: 5px;
-  margin-left: 70px;
-  width: 350px;
-  height: 250px;
+  padding: 1%;
   border-radius: 20px 20px 20px 20px;
 }
 
@@ -107,22 +101,49 @@ header #button-bloc {
 #section-three #s3-bloc-1 {
   background-color: #bdc3c7;
   padding: 5px;
-  margin-right: 70px;
   border-radius: 20px 20px 20px 20px;
+}
+
+#section-three #s3-bloc-1 #s3-title {
+  text-align: center;
+}
+
+#section-three #s3-bloc-1 #s3-p1 {
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 30px;
 }
 
 #section-three #s3-bloc-2 {
   background-color: #bdc3c7;
   padding: 5px;
-  margin-right: 70px;
   border-radius: 20px 20px 20px 20px;
+}
+
+#section-three #s3-bloc-2 #s3-title {
+  text-align: center;
+}
+
+#section-three #s3-bloc-2 #s3-p2 {
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 30px;
 }
 
 #section-three #s3-bloc-3 {
   background-color: #bdc3c7;
   padding: 5px;
-  margin-right: 70px;
   border-radius: 20px 20px 20px 20px;
+}
+
+#section-three #s3-bloc-3 #s3-title {
+  text-align: center;
+}
+
+#section-three #s3-bloc-3 #s3-p3 {
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 30px;
 }
 
 footer {
@@ -141,10 +162,9 @@ footer {
     -ms-flex-flow: wrap;
         flex-flow: wrap;
   }
-}
-
-#section-three {
-  -ms-flex-flow: wrap;
-      flex-flow: wrap;
+  #section-three {
+    -ms-flex-flow: wrap;
+        flex-flow: wrap;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

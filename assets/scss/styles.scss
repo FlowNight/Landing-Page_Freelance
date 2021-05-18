@@ -59,15 +59,12 @@ header {
 
 #section-two {
     background-color: var(--secondary);
-    padding: 30px;
+    padding: 5%;
     display: flex;
 
     #s2-bloc-1 {
         background-color: #bdc3c7;
-        padding: 5px;
-        margin-right: 70px;
-        width: 350px;
-        height: 250px;
+        padding: 1%;
         border-radius: 20px 20px 20px 20px;
 
         #s2-title {
@@ -84,10 +81,7 @@ header {
 
     #s2-bloc-2 {
         background-color: #bdc3c7;
-        padding: 5px;
-        margin-left: 70px;
-        width: 350px;
-        height: 250px;
+        padding: 1%;
         border-radius: 20px 20px 20px 20px;
 
         #s2-title {
@@ -112,40 +106,55 @@ header {
     #s3-bloc-1 {
         background-color: #bdc3c7;
         padding: 5px;
-        margin-right: 70px;
         border-radius: 20px 20px 20px 20px;
 
         #img {}
 
-        #s3-title {}
+        #s3-title {
+            text-align: center;
+        }
 
-        #s3-p1 {}
+        #s3-p1 {
+            margin-top: 30px;
+            margin-left: 50px;
+            margin-right: 30px;
+        }
     }
 
     #s3-bloc-2 {
         background-color: #bdc3c7;
         padding: 5px;
-        margin-right: 70px;
         border-radius: 20px 20px 20px 20px;
 
         #img {}
 
-        #s3-title {}
+        #s3-title {
+            text-align: center;
+        }
 
-        #s3-p2 {}
+        #s3-p2 {
+            margin-top: 30px;
+            margin-left: 50px;
+            margin-right: 30px;
+        }
     }
 
     #s3-bloc-3 {
         background-color: #bdc3c7;
         padding: 5px;
-        margin-right: 70px;
         border-radius: 20px 20px 20px 20px;
 
         #img {}
 
-        #s3-title {}
+        #s3-title {
+            text-align: center;
+        }
 
-        #s3-p3 {}
+        #s3-p3 {
+            margin-top: 30px;
+            margin-left: 50px;
+            margin-right: 30px;
+        }
     }
 }
 
@@ -167,7 +176,7 @@ footer {
 }
 
 // <--===== Tablette =====-->
-@media screen and (max-width: 960px) {}
+// @media screen and (max-width: 960px) {}
 
 // <--===== Mobile =====-->
 @media screen and (max-width: 375px) {
@@ -178,17 +187,15 @@ footer {
     #section-two {
         flex-flow: wrap;
 
-        #s3-bloc-1 {
-        }
+        #s3-bloc-1 {}
 
-        #s3-bloc-2 {
-        }
+        #s3-bloc-2 {}
 
-        #s3-bloc-3 {
-        }
+        #s3-bloc-3 {}
     }
-}
 
-#section-three {
-    flex-flow: wrap;
+
+    #section-three {
+        flex-flow: wrap;
+    }
 }

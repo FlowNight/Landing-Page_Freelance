@@ -15,14 +15,18 @@ html {
 header {
     background-color: var(--primary);
     display: flex;
+    justify-content: space-between;
 
     img {
-        padding: 1%;
-        max-width: 3%;
-        min-width: 3%;
+        padding: 1em;
+        max-width: 5%;
+        min-width: 5%;
     }
 
-    #button-bloc {}
+    #button-bloc {
+        padding: 1em;
+        justify-content: space-between;
+    }
 
     #home {}
 
@@ -35,12 +39,13 @@ header {
 
 #section-one {
     display: flex;
+    justify-content: space-around;
 
     img {
         padding: 1em;
-        margin: 1.5em;
-        max-width: 25%;
-        min-width: 25%;
+        margin: 1.5em 5em;
+        max-width: 375px;
+        max-height: 400px;
         border-radius: 2em;
     }
 
@@ -65,6 +70,7 @@ header {
     background-color: var(--secondary);
     padding: 3%;
     display: flex;
+    justify-content: space-around;
 
     #s2-bloc-1 {
         background-color: var(--gray);
@@ -100,7 +106,7 @@ header {
 #section-three {
     padding: 5%;
     display: flex;
-
+    justify-content: space-around;
 
     #s3-bloc-1 {
         background-color: var(--gray);
@@ -150,7 +156,6 @@ header {
 
         #s3-p3 {
             margin: 2.5em;
-            ;
         }
     }
 }
@@ -178,12 +183,15 @@ footer {
 @media all and (max-width: 960px) {
     #section-one {
         flex-direction: column;
+        margin: 1em;
 
-        img {}
+        img {
+            // text-align: center;
+        }
 
         #s1-bloc-p {
             padding: 0;
-            margin: 1em;
+            margin: 3.5em;
 
             #s1-title {}
 
@@ -194,23 +202,40 @@ footer {
     #section-two {
         flex-direction: column;
 
-        #s2-bloc-1 {}
+        #s2-bloc-1 {
+            padding: 1em;
+            margin: 2.5em;
+        }
 
-        #s2-bloc-2 {}
+        #s2-bloc-2 {
+            padding: 1em;
+            margin: 2.5em;
+        }
     }
 
     #section-three {
-        flex-direction: column;
+        flex-direction: column; 
 
-        #s3-bloc-1 {}
+        #s3-bloc-1 {
+            margin: 2em;
+        }
 
-        #s3-bloc-2 {}
+        #s3-bloc-2 {
+            margin: 2em;
+        }
 
-        #s3-bloc-3 {}
+        #s3-bloc-3 {
+            margin: 2em;
+        }
+
+        #img {
+            // text-align: center;
+        }
     }
 
     footer {
-        flex-direction: column;
+        // flex-direction: column wrap;
+        justify-content: space-between;
     }
 }
 
